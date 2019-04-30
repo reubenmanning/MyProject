@@ -52,7 +52,7 @@ void AProjectileSpawner::Tick(float DeltaTime)
 	if (t1 <= 0)
 	{
 		Spawn();
-		t1 = 2.0f;
+		t1 = 4.0f;
 	}
 }
 
